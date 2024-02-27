@@ -1,0 +1,1 @@
+class BombBird extends Bird{constructor(s,i){let e=[];e.push(loadImage("assets/BombBirdExploding.png")),e.push(loadImage("assets/BombBirdPain.png")),e.push(loadImage("assets/BasicBirdDisappear.png")),super(s,i,55,e),this.birdAbility=()=>{level.explosion(this.body.GetPosition(),20),this.toDestroy()}}}

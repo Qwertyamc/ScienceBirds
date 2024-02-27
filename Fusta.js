@@ -1,0 +1,1 @@
+class Fusta extends Box{constructor(o,s,a,d){let e=[];e.push(loadImage("assets/WoodBox4.png")),e.push(loadImage("assets/WoodBox.png")),super(o,s,a,d,2,1.5,1,e,box2d.b2BodyType.b2_dynamicBody)}}

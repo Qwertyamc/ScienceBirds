@@ -1,0 +1,1 @@
+class NormalPig extends Pig{constructor(s,a,e){let i=[];i.push(loadImage("assets/BasicPigMedium.png")),i.push(loadImage("assets/BasicPigMediumDead.png")),i.push(loadImage("assets/BasicPigMediumDisapear.png")),super(s,a,e,1,i)}}

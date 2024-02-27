@@ -1,0 +1,1 @@
+class NormalBird extends Bird{constructor(s,a){let e=[];e.push(loadImage("assets/BasicBird.png")),e.push(loadImage("assets/BasicBirdCollided.png")),e.push(loadImage("assets/BasicBirdDisappear.png")),super(s,a,45,e)}}

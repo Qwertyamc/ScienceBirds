@@ -1,0 +1,1 @@
+class Gel extends Box{constructor(s,e,o,a){let d=[];d.push(loadImage("assets/IceBox4.png")),d.push(loadImage("assets/IceBox.png")),super(s,e,o,a,2,.2,1,d,box2d.b2BodyType.b2_dynamicBody)}}

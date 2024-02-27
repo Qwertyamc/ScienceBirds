@@ -1,0 +1,1 @@
+class Metall extends Box{constructor(s,o,a,e){let n=[];n.push(loadImage("assets/IronBox4.png")),n.push(loadImage("assets/IronBox3.png")),n.push(loadImage("assets/IronBox.png")),super(s,o,a,e,3,2,2,n,box2d.b2BodyType.b2_dynamicBody)}}

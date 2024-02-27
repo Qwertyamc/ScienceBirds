@@ -1,0 +1,1 @@
+class Lava extends Box{constructor(s,a,o,e){let t=[];t.push(loadImage("assets/LavaBox.png")),super(s,a,o,e,-1,.5,.5,t,box2d.b2BodyType.b2_staticBody)}}

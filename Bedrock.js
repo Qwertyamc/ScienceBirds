@@ -1,0 +1,1 @@
+class Bedrock extends Box{constructor(o,s,e,d){let t=[];t.push(loadImage("assets/BedrockBox.png")),super(o,s,e,d,-1,.5,.5,t,box2d.b2BodyType.b2_staticBody)}}
